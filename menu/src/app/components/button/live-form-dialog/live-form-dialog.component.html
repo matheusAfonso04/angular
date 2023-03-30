@@ -1,0 +1,32 @@
+<br />
+<br />
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Nome completo:</mat-label>
+    <input matInput [(ngModel)]="data.nome" />
+  </mat-form-field>
+</form>
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Email:</mat-label>
+    <input matInput placeholder="josecarmino@exemplo.com" />
+  </mat-form-field>
+</form>
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Estado:</mat-label>
+    <input matInput placeholder="Ex. SP" />
+  </mat-form-field>
+</form>
+<form class="example-form">
+  <mat-form-field class="example-full-width">
+    <mat-label>Endereço:</mat-label>
+    <input matInput placeholder="Ex. Rua José Carmino nº69" />
+  </mat-form-field>
+</form>
+
+<div mat-dialog-actions>
+  <button mat-button mat-dialog-close class="cancelar">Cancelar</button>
+  <button mat-button class="excluir">Excluir</button>
+  <button mat-button class="salvar">Salvar</button>
+</div>
